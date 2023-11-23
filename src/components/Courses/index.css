@@ -1,0 +1,57 @@
+.main-container {
+  min-height: 80vh;
+  padding: 20px;
+}
+.courses-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+.each-course {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1e293b;
+  height: 150px;
+  width: 350px;
+}
+.logo {
+  margin-right: 10px;
+}
+.heading {
+  margin-bottom: 0;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #1e293b;
+}
+.failure-description {
+  font-family: 'Roboto';
+  color: #475569;
+}
+.failure-button {
+  background-color: #4656a1;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+}
+.loading-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,24 @@
+.successView-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 80vw;
+  display: flex;
+  background-color: #e8e8e8;
+  padding: 10px;
+}
+.course-image {
+  margin-right: 30px;
+}
+.name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.description {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  line-height: 50px;
+}
